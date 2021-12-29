@@ -6,10 +6,10 @@ This contains deployment files to run
 
 1. Clone this directory:
 ```
-$ git clone git@github.com:TykTechnologies/tyk-oss-k8s-deployment.git
+$ git clone git@github.com:sedkodes/tyk-oss-k8s-deployment
 ```
 
-2. Deploy Tyk into k8s cluster in `tyk` namespace
+2. In the cloned repo, deploy Tyk into k8s cluster in `tyk` namespace
 ```
 $ ./launch-tyk.sh
 
@@ -18,7 +18,7 @@ $ ./launch-tyk.sh
 
 3. Deploy APIClarity into own namespace in k8s cluster using Helm
 ```
-$ ./apiclarity.sh 
+$ ./apiclarity/apiclarity.sh 
 
 "apiclarity" has been added to your repositories
 Error: failed post-install: job failed: BackoffLimitExceeded
